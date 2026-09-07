@@ -775,3 +775,23 @@ The server can now be started from the Chrome extension.
 [Slides Remote] Phone disconnected. Total clients: 0
 [Slides Remote] Phone connected. Total clients: 1
 [Slides Remote] Phone disconnected. Total clients: 0
+[Slides Remote] Phone connected. Total clients: 1
+[Slides Remote] Phone disconnected. Total clients: 0
+[Slides Remote] Phone connected. Total clients: 1
+[Slides Remote] Received from phone: { action: 'pen' }
+[Slides Remote] Sent key: +l
+[Slides Remote] Received from phone: { action: 'erase' }
+[Slides Remote] Sent key: +a
+[Slides Remote] Received from phone: { action: 'pen' }
+[Slides Remote] Sent key: +l
+[Slides Remote] Received from phone: { action: 'pen' }
+[Slides Remote] Sent key: +l
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'erase' }
+[Slides Remote] Sent key: +a
+[Slides Remote] Phone disconnected. Total clients: 0
