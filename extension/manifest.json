@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Slides Phone Remote",
+  "version": "2.0.0",
+  "description": "Start the local Slides Phone Remote server and control the active presentation from your phone.",
+  "permissions": ["alarms", "storage", "nativeMessaging"],
+  "host_permissions": [
+    "http://127.0.0.1:8765/*",
+    "http://localhost:8765/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Slides Phone Remote"
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlUaZX/079hjTJBakwA5hqYTEuWTH6RPUcSwVFs+ogu7f3Uxsr3gTJWig1XFxUi16LQKXB20y+L/q4k16x09/wKPPFDsXc0zHTN4xa/edMu6ekE1HL8mB9L8Zu1Dkn/mPP6zV21Loa/4QrAgEnz7TexE/skUlH+jvCmN9YUWkJC/lAM8xH1pAFUYVlZ8vgCwjUF0sfIlITTZENVLvypDI6ZrM+Q/+RGtSATZ8HJnLdmmTpIcTy8C5QBT7LhOLfdD7j/xKMeTBIIBRezuEV2SAfXlGstElfI4bWckSWS9gPDe2P6u2W3TfRiiMxz22EoJ1epWMvEneFFJkWzZ6GqokAwIDAQAB"
+}

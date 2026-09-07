@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Slides Remote</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body {
+    margin: 0; padding: 0; height: 100%; overflow: hidden;
+    background: #0f1115; color: #f5f5f7;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    display: flex; flex-direction: column;
+  }
+  #status {
+    position: absolute; top: 0; left: 0; right: 0; z-index: 10;
+    padding: 10px 16px; font-size: 13px; text-align: center;
+    background: rgba(255,255,255,0.04);
+  }
+  #status .dot {
+    display: inline-block; width: 8px; height: 8px; border-radius: 50%;
+    margin-right: 6px; background: #e74c3c;
+  }
+  #status.connected .dot { background: #2ecc71; }
+  
+  #trackpad {
+    flex: 1;
+    position: relative;
+    background: #16181d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    touch-action: none;
+  }
+  
+  #trackpad::before {
+    content: 'Trackpad Area';
+    color: rgba(255,255,255,0.1);
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .toolbar {
+    display: flex;
+    height: 80px;
+    background: #0f1115;
+    border-top: 1px solid rgba(255,255,255,0.08);
+  }
+
+  .btn {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: background 0.15s;
+    border-right: 1px solid rgba(255,255,255,0.08);
+  }
+  .btn:last-child { border-right: none; }
+  .btn:active { background: rgba(255,255,255,0.08); }
+  .btn.active { background: rgba(255,255,255,0.15); color: #4facfe; }
+
+  .btn svg { width: 24px; height: 24px; margin-bottom: 6px; opacity: 0.8; }
+  .btn.active svg { opacity: 1; stroke: #4facfe; }
+  
+  .label {
+    font-size: 11px; opacity: 0.6; text-transform: uppercase; letter-spacing: 1px;
+  }
+  .btn.active .label { opacity: 1; }
+</style>
+</head>
+<body>
+  <div id="status"><span class="dot"></span><span id="status-text">Connecting…</span></div>
+  
+  <div id="trackpad"></div>
+
+  <div class="toolbar">
+    <div class="btn" id="prev">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+      <div class="label">Prev</div>
+    </div>
+    <div class="btn" id="next">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+      <div class="label">Next</div>
+    </div>
+    <div class="btn" id="penToggle">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"></path><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="M2 2l7.58 7.58"></path></svg>
+      <div class="label">Pen</div>
+    </div>
+    <div class="btn" id="eraserBtn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 20H7L3 16C2.5 15.5 2.5 14.5 3 14L13 4C13.5 3.5 14.5 3.5 15 4L20 9C20.5 9.5 20.5 10.5 20 11L11 20H20V20Z"></path><path d="M16 8L10 14"></path></svg>
+      <div class="label">Erase All</div>
+    </div>
+  </div>
+
+<script>
+  let ws;
+  let reconnectTimer;
+  const statusEl = document.getElementById('status');
+  const statusText = document.getElementById('status-text');
+
+  function connect() {
+    ws = new WebSocket(`ws://${location.host}`);
+    ws.onopen = () => {
+      statusEl.classList.add('connected');
+      statusText.textContent = 'Connected';
+    };
+    ws.onclose = () => {
+      statusEl.classList.remove('connected');
+      statusText.textContent = 'Disconnected — retrying…';
+      scheduleReconnect();
+    };
+    ws.onerror = () => ws.close();
+  }
+
+  function scheduleReconnect() {
+    clearTimeout(reconnectTimer);
+    reconnectTimer = setTimeout(connect, 1500);
+  }
+
+  function send(action, data = {}) {
+    if (ws && ws.readyState === WebSocket.OPEN) {
+      ws.send(JSON.stringify({ action, ...data }));
+    }
+  }
+
+  document.getElementById('prev').addEventListener('click', () => {
+    send('prev');
+    if (navigator.vibrate) navigator.vibrate(15);
+  });
+  
+  document.getElementById('next').addEventListener('click', () => {
+    send('next');
+    if (navigator.vibrate) navigator.vibrate(15);
+  });
+
+  const penToggleBtn = document.getElementById('penToggle');
+  let isPenActive = false;
+
+  penToggleBtn.addEventListener('click', () => {
+    isPenActive = !isPenActive;
+    if (isPenActive) {
+      penToggleBtn.classList.add('active');
+    } else {
+      penToggleBtn.classList.remove('active');
+    }
+    send('pen'); // Sends Shift+L
+    if (navigator.vibrate) navigator.vibrate(15);
+  });
+
+  document.getElementById('eraserBtn').addEventListener('click', () => {
+    send('erase'); // Sends Shift+A
+    if (navigator.vibrate) navigator.vibrate(25);
+  });
+
+  // Trackpad Logic
+  const trackpad = document.getElementById('trackpad');
+  let lastX = 0;
+  let lastY = 0;
+  let isDragging = false;
+
+  trackpad.addEventListener('touchstart', (e) => {
+    e.preventDefault(); // prevent synthetic clicks and scrolling
+    if (e.touches.length > 1) return; // ignore multi-touch
+    lastX = e.touches[0].clientX;
+    lastY = e.touches[0].clientY;
+    
+    // In pen mode, touching the screen should start drawing
+    // We send mousedown
+    if (isPenActive) {
+      send('mousedown');
+    }
+  }, { passive: false });
+
+  trackpad.addEventListener('touchmove', (e) => {
+    e.preventDefault(); // prevent scrolling
+    if (e.touches.length > 1) return;
+    
+    const currentX = e.touches[0].clientX;
+    const currentY = e.touches[0].clientY;
+    
+    const dx = currentX - lastX;
+    const dy = currentY - lastY;
+    
+    // Apply a multiplier for faster movement
+    const multiplier = 2.5; 
+    
+    send('mousemove', { dx: Math.round(dx * multiplier), dy: Math.round(dy * multiplier) });
+    
+    lastX = currentX;
+    lastY = currentY;
+  }, { passive: false });
+
+  trackpad.addEventListener('touchend', (e) => {
+    e.preventDefault();
+    if (isPenActive) {
+      send('mouseup');
+    }
+  }, { passive: false });
+
+  trackpad.addEventListener('touchcancel', (e) => {
+    e.preventDefault();
+    if (isPenActive) {
+      send('mouseup');
+    }
+  }, { passive: false });
+
+  connect();
+</script>
+</body>
+</html>

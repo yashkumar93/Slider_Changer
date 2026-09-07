@@ -1,0 +1,9 @@
+{
+  "name": "com.slides_phone_remote",
+  "description": "Starts the Slides Phone Remote Node.js server on Windows.",
+  "path": "slides_remote_host.exe",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://ccgcnfogceinehllofcidffkjipejdpe/"
+  ]
+}

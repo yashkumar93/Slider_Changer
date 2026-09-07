@@ -1,0 +1,777 @@
+node:internal/modules/cjs/loader:1568
+  throw err;
+  ^
+
+Error: Cannot find module 'ws'
+Require stack:
+- C:\Users\Asus\Downloads\slides-phone-remote-option-b\server\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1564:15)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1118:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1142:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1169:12)
+    at Module._load (node:internal/modules/cjs/loader:1341:5)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.require (node:internal/modules/cjs/loader:1674:12)
+    at require (node:internal/modules/helpers:157:16)
+    at Object.<anonymous> (C:\Users\Asus\Downloads\slides-phone-remote-option-b\server\server.js:6:19)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\Asus\\Downloads\\slides-phone-remote-option-b\\server\\server.js'
+  ]
+}
+
+Node.js v24.20.0
+node:internal/modules/cjs/loader:1568
+  throw err;
+  ^
+
+Error: Cannot find module 'ws'
+Require stack:
+- C:\Users\Asus\Downloads\slides-phone-remote-option-b\server\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1564:15)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1118:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1142:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1169:12)
+    at Module._load (node:internal/modules/cjs/loader:1341:5)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.require (node:internal/modules/cjs/loader:1674:12)
+    at require (node:internal/modules/helpers:157:16)
+    at Object.<anonymous> (C:\Users\Asus\Downloads\slides-phone-remote-option-b\server\server.js:6:19)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\Asus\\Downloads\\slides-phone-remote-option-b\\server\\server.js'
+  ]
+}
+
+Node.js v24.20.0
+node:internal/modules/cjs/loader:1568
+  throw err;
+  ^
+
+Error: Cannot find module 'ws'
+Require stack:
+- C:\Users\Asus\Downloads\slides-phone-remote-option-b\server\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1564:15)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1118:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1142:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1169:12)
+    at Module._load (node:internal/modules/cjs/loader:1341:5)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.require (node:internal/modules/cjs/loader:1674:12)
+    at require (node:internal/modules/helpers:157:16)
+    at Object.<anonymous> (C:\Users\Asus\Downloads\slides-phone-remote-option-b\server\server.js:6:19)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\Asus\\Downloads\\slides-phone-remote-option-b\\server\\server.js'
+  ]
+}
+
+Node.js v24.20.0
+node:internal/modules/cjs/loader:1568
+  throw err;
+  ^
+
+Error: Cannot find module 'ws'
+Require stack:
+- C:\Users\Asus\Downloads\slides-phone-remote-option-b\server\server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1564:15)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1118:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1142:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1169:12)
+    at Module._load (node:internal/modules/cjs/loader:1341:5)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.require (node:internal/modules/cjs/loader:1674:12)
+    at require (node:internal/modules/helpers:157:16)
+    at Object.<anonymous> (C:\Users\Asus\Downloads\slides-phone-remote-option-b\server\server.js:6:19)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\Asus\\Downloads\\slides-phone-remote-option-b\\server\\server.js'
+  ]
+}
+
+Node.js v24.20.0
+
+Slide remote server is running!
+On this computer: http://localhost:8765
+On your phone (same WiFi network), open one of these:
+
+  http://192.168.1.37:8765
+
+The server can now be started from the Chrome extension.
+[Slides Remote] Phone connected. Total clients: 1
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Phone disconnected. Total clients: 0
+[Slides Remote] Phone connected. Total clients: 1
+[Slides Remote] Phone disconnected. Total clients: 0
+
+Slide remote server is running!
+On this computer: http://localhost:8765
+On your phone (same WiFi network), open one of these:
+
+  http://172.17.7.95:8765
+
+The server can now be started from the Chrome extension.
+[Slides Remote] Phone connected. Total clients: 1
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Phone connected. Total clients: 2
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Phone disconnected. Total clients: 1
+[Slides Remote] Phone connected. Total clients: 2
+[Slides Remote] Phone disconnected. Total clients: 1
+[Slides Remote] Phone connected. Total clients: 2
+[Slides Remote] Phone disconnected. Total clients: 1
+[Slides Remote] Phone connected. Total clients: 2
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Phone disconnected. Total clients: 1
+[Slides Remote] Phone connected. Total clients: 2
+[Slides Remote] Phone disconnected. Total clients: 1
+[Slides Remote] Phone connected. Total clients: 2
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Phone disconnected. Total clients: 1
+[Slides Remote] Phone connected. Total clients: 2
+[Slides Remote] Phone disconnected. Total clients: 1
+[Slides Remote] Phone connected. Total clients: 2
+[Slides Remote] Phone disconnected. Total clients: 1
+[Slides Remote] Phone connected. Total clients: 2
+[Slides Remote] Phone disconnected. Total clients: 1
+[Slides Remote] Phone connected. Total clients: 2
+[Slides Remote] Phone disconnected. Total clients: 1
+[Slides Remote] Phone connected. Total clients: 2
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Phone disconnected. Total clients: 1
+[Slides Remote] Phone connected. Total clients: 2
+[Slides Remote] Phone disconnected. Total clients: 1
+[Slides Remote] Phone connected. Total clients: 2
+[Slides Remote] Phone disconnected. Total clients: 1
+[Slides Remote] Phone connected. Total clients: 2
+[Slides Remote] Phone disconnected. Total clients: 1
+
+Slide remote server is running!
+On this computer: http://localhost:8765
+On your phone (same WiFi network), open one of these:
+
+  http://192.168.1.37:8765
+
+The server can now be started from the Chrome extension.
+[Slides Remote] Phone connected. Total clients: 1
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Phone disconnected. Total clients: 0
+[Slides Remote] Phone connected. Total clients: 1
+[Slides Remote] Phone disconnected. Total clients: 0
+[Slides Remote] Phone connected. Total clients: 1
+[Slides Remote] Phone disconnected. Total clients: 0
+[Slides Remote] Phone connected. Total clients: 1
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Phone disconnected. Total clients: 0
+[Slides Remote] Phone connected. Total clients: 1
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Phone disconnected. Total clients: 0
+
+Slide remote server is running!
+On this computer: http://localhost:8765
+On your phone (same WiFi network), open one of these:
+
+  http://192.168.1.20:8765
+
+The server can now be started from the Chrome extension.
+[Slides Remote] Phone connected. Total clients: 1
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Phone disconnected. Total clients: 0
+[Slides Remote] Phone connected. Total clients: 1
+[Slides Remote] Phone disconnected. Total clients: 0
+
+Slide remote server is running!
+On this computer: http://localhost:8765
+On your phone (same WiFi network), open one of these:
+
+  http://192.168.1.7:8765
+
+The server can now be started from the Chrome extension.
+[Slides Remote] Phone connected. Total clients: 1
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Sent Page Down to the active window
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Sent Page Up to the active window
+[Slides Remote] Phone disconnected. Total clients: 0
+[Slides Remote] Phone connected. Total clients: 1
+[Slides Remote] Phone disconnected. Total clients: 0
+[Slides Remote] Phone connected. Total clients: 1
+[Slides Remote] Phone disconnected. Total clients: 0
+[Slides Remote] Phone connected. Total clients: 1
+[Slides Remote] Phone disconnected. Total clients: 0
+
+Slide remote server is running!
+On this computer: http://localhost:8765
+On your phone (same WiFi network), open one of these:
+
+  http://192.168.1.7:8765
+
+The server can now be started from the Chrome extension.
+[Slides Remote] Phone connected. Total clients: 1
+[Slides Remote] Received from phone: { action: 'pen' }
+[Slides Remote] Sent key: +l
+[Slides Remote] Received from phone: { action: 'pen' }
+[Slides Remote] Sent key: +l
+[Slides Remote] Received from phone: { action: 'pen' }
+[Slides Remote] Sent key: +l
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'erase' }
+[Slides Remote] Sent key: +a
+[Slides Remote] Received from phone: { action: 'erase' }
+[Slides Remote] Sent key: +a
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'erase' }
+[Slides Remote] Sent key: +a
+[Slides Remote] Received from phone: { action: 'erase' }
+[Slides Remote] Sent key: +a
+[Slides Remote] Received from phone: { action: 'erase' }
+[Slides Remote] Sent key: +a
+[Slides Remote] Received from phone: { action: 'erase' }
+[Slides Remote] Sent key: +a
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'erase' }
+[Slides Remote] Sent key: +a
+[Slides Remote] Received from phone: { action: 'pen' }
+[Slides Remote] Sent key: +l
+[Slides Remote] Phone disconnected. Total clients: 0
+[Slides Remote] Phone connected. Total clients: 1
+[Slides Remote] Received from phone: { action: 'pen' }
+[Slides Remote] Sent key: +l
+[Slides Remote] Received from phone: { action: 'pen' }
+[Slides Remote] Sent key: +l
+[Slides Remote] Received from phone: { action: 'pen' }
+[Slides Remote] Sent key: +l
+[Slides Remote] Received from phone: { action: 'pen' }
+[Slides Remote] Sent key: +l
+[Slides Remote] Received from phone: { action: 'erase' }
+[Slides Remote] Sent key: +a
+[Slides Remote] Received from phone: { action: 'erase' }
+[Slides Remote] Sent key: +a
+[Slides Remote] Received from phone: { action: 'erase' }
+[Slides Remote] Sent key: +a
+[Slides Remote] Received from phone: { action: 'erase' }
+[Slides Remote] Sent key: +a
+[Slides Remote] Received from phone: { action: 'pen' }
+[Slides Remote] Sent key: +l
+[Slides Remote] Received from phone: { action: 'pen' }
+[Slides Remote] Sent key: +l
+[Slides Remote] Received from phone: { action: 'pen' }
+[Slides Remote] Sent key: +l
+[Slides Remote] Received from phone: { action: 'pen' }
+[Slides Remote] Sent key: +l
+[Slides Remote] Received from phone: { action: 'erase' }
+[Slides Remote] Sent key: +a
+[Slides Remote] Phone disconnected. Total clients: 0
+[Slides Remote] Phone connected. Total clients: 1
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'next' }
+[Slides Remote] Sent key: {PGDN}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Received from phone: { action: 'prev' }
+[Slides Remote] Sent key: {PGUP}
+[Slides Remote] Phone disconnected. Total clients: 0
+[Slides Remote] Phone connected. Total clients: 1
+[Slides Remote] Received from phone: { action: 'erase' }
+[Slides Remote] Sent key: +a
+[Slides Remote] Received from phone: { action: 'erase' }
+[Slides Remote] Sent key: +a
+[Slides Remote] Phone disconnected. Total clients: 0
+[Slides Remote] Phone connected. Total clients: 1
+[Slides Remote] Phone disconnected. Total clients: 0
